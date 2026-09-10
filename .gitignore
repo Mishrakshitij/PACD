@@ -1,0 +1,17 @@
+# Local paper sources, credentials, annotation tooling and intermediate data.
+/.local/
+/.agents/
+/.codex/
+.env
+.env.*
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.venv/
+build/
+dist/
+/runs/
+/checkpoints/
+*.log

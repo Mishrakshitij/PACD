@@ -1,0 +1,5 @@
+domain,rows,dialogues,impolite,somewhat_impolite,somewhat_polite,polite,train,test,validation,paper_target_matched
+movie,21656,2890,3576,3088,9299,5693,15367,4103,2186,True
+restaurant,29718,4103,6764,5323,11207,6424,20999,5851,2868,True
+taxi,23311,3094,6134,3430,8725,5022,16511,4446,2354,True
+dstc1,39218,1708,13622,4650,14735,6211,26987,7657,4574,True

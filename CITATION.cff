@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use PACD, please cite the paper below and identify the dataset release used."
+title: "PACD: Politeness Annotated Conversational Data"
+type: software
+authors:
+  - family-names: Mishra
+    given-names: Kshitij
+  - family-names: Firdaus
+    given-names: Mauajama
+  - family-names: Ekbal
+    given-names: Asif
+repository-code: "https://github.com/Mishrakshitij/PACD"
+preferred-citation:
+  type: article
+  title: "Predicting Politeness Variations in Goal-Oriented Conversations"
+  authors:
+    - family-names: Mishra
+      given-names: Kshitij
+    - family-names: Firdaus
+      given-names: Mauajama
+    - family-names: Ekbal
+      given-names: Asif
+  journal: "IEEE Transactions on Computational Social Systems"
+  year: 2023
+  volume: "10"
+  issue: "3"
+  start: 1095
+  end: 1104
+  doi: "10.1109/TCSS.2022.3156580"
+  url: "https://doi.org/10.1109/TCSS.2022.3156580"

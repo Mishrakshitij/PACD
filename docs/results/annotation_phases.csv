@@ -1,0 +1,17 @@
+domain,phase,label,label_name,count,source,source_figure
+mdc,1,0,impolite,8593,manuscript,fig:pol_dis_p12_MDC
+mdc,1,1,somewhat_impolite,895,manuscript,fig:pol_dis_p12_MDC
+mdc,1,2,somewhat_polite,3772,manuscript,fig:pol_dis_p12_MDC
+mdc,1,3,polite,8244,manuscript,fig:pol_dis_p12_MDC
+mdc,2,0,impolite,3722,manuscript,fig:pol_dis_p12_MDC
+mdc,2,1,somewhat_impolite,2073,manuscript,fig:pol_dis_p12_MDC
+mdc,2,2,somewhat_polite,5978,manuscript,fig:pol_dis_p12_MDC
+mdc,2,3,polite,9731,manuscript,fig:pol_dis_p12_MDC
+dstc1,1,0,impolite,6217,manuscript,fig:pol_dis_p12_DSTC1
+dstc1,1,1,somewhat_impolite,65,manuscript,fig:pol_dis_p12_DSTC1
+dstc1,1,2,somewhat_polite,3643,manuscript,fig:pol_dis_p12_DSTC1
+dstc1,1,3,polite,218,manuscript,fig:pol_dis_p12_DSTC1
+dstc1,2,0,impolite,2570,manuscript,fig:pol_dis_p12_DSTC1
+dstc1,2,1,somewhat_impolite,708,manuscript,fig:pol_dis_p12_DSTC1
+dstc1,2,2,somewhat_polite,4374,manuscript,fig:pol_dis_p12_DSTC1
+dstc1,2,3,polite,2491,manuscript,fig:pol_dis_p12_DSTC1

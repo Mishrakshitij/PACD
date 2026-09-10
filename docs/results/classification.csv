@@ -1,0 +1,49 @@
+setting,train_domain,test_domain,model,f1,gm,iba,accuracy,source,source_table
+in_domain,movie,movie,ALBERT,0.880,0.914,0.832,0.881,manuscript,in_domain
+in_domain,movie,movie,DistilBERT,0.902,0.930,0.862,0.902,manuscript,in_domain
+in_domain,movie,movie,DistilRoBERTa,0.896,0.926,0.856,0.896,manuscript,in_domain
+in_domain,movie,movie,Proposed Model,0.925,0.951,0.884,0.927,manuscript,in_domain
+in_domain,restaurant,restaurant,ALBERT,0.888,0.920,0.844,0.887,manuscript,in_domain
+in_domain,restaurant,restaurant,DistilBERT,0.902,0.932,0.866,0.902,manuscript,in_domain
+in_domain,restaurant,restaurant,DistilRoBERTa,0.898,0.930,0.862,0.902,manuscript,in_domain
+in_domain,restaurant,restaurant,Proposed Model,0.942,0.958,0.891,0.938,manuscript,in_domain
+in_domain,taxi,taxi,ALBERT,0.922,0.946,0.892,0.923,manuscript,in_domain
+in_domain,taxi,taxi,DistilBERT,0.930,0.952,0.902,0.931,manuscript,in_domain
+in_domain,taxi,taxi,DistilRoBERTa,0.930,0.950,0.902,0.930,manuscript,in_domain
+in_domain,taxi,taxi,Proposed Model,0.957,0.978,0.923,0.957,manuscript,in_domain
+in_domain,dstc1,dstc1,ALBERT,0.948,0.962,0.928,0.951,manuscript,in_domain
+in_domain,dstc1,dstc1,DistilBERT,0.960,0.970,0.934,0.960,manuscript,in_domain
+in_domain,dstc1,dstc1,DistilRoBERTa,0.960,0.970,0.936,0.959,manuscript,in_domain
+in_domain,dstc1,dstc1,Proposed Model,0.985,0.989,0.950,0.981,manuscript,in_domain
+cross_domain,movie,restaurant,ALBERT,0.810,0.870,0.760,0.817,manuscript,mov_to_res_tax
+cross_domain,movie,restaurant,DistilBERT,0.830,0.890,0.790,0.841,manuscript,mov_to_res_tax
+cross_domain,movie,restaurant,DistilRoBERTa,0.830,0.880,0.780,0.832,manuscript,mov_to_res_tax
+cross_domain,movie,restaurant,Proposed Model,0.857,0.914,0.817,0.867,manuscript,mov_to_res_tax
+cross_domain,movie,taxi,ALBERT,0.820,0.870,0.770,0.825,manuscript,mov_to_res_tax
+cross_domain,movie,taxi,DistilBERT,0.800,0.870,0.760,0.811,manuscript,mov_to_res_tax
+cross_domain,movie,taxi,DistilRoBERTa,0.810,0.870,0.760,0.810,manuscript,mov_to_res_tax
+cross_domain,movie,taxi,Proposed Model,0.845,0.891,0.798,0.854,manuscript,mov_to_res_tax
+cross_domain,restaurant,movie,ALBERT,0.840,0.890,0.780,0.843,manuscript,rest_to_mov_tax
+cross_domain,restaurant,movie,DistilBERT,0.840,0.880,0.780,0.842,manuscript,rest_to_mov_tax
+cross_domain,restaurant,movie,DistilRoBERTa,0.830,0.870,0.760,0.835,manuscript,rest_to_mov_tax
+cross_domain,restaurant,movie,Proposed Model,0.863,0.920,0.810,0.861,manuscript,rest_to_mov_tax
+cross_domain,restaurant,taxi,ALBERT,0.850,0.890,0.800,0.843,manuscript,rest_to_mov_tax
+cross_domain,restaurant,taxi,DistilBERT,0.850,0.890,0.800,0.847,manuscript,rest_to_mov_tax
+cross_domain,restaurant,taxi,DistilRoBERTa,0.870,0.910,0.830,0.870,manuscript,rest_to_mov_tax
+cross_domain,restaurant,taxi,Proposed Model,0.889,0.934,0.858,0.897,manuscript,rest_to_mov_tax
+cross_domain,taxi,movie,ALBERT,0.810,0.860,0.740,0.817,manuscript,tax_to_mov_res
+cross_domain,taxi,movie,DistilBERT,0.840,0.890,0.790,0.847,manuscript,tax_to_mov_res
+cross_domain,taxi,movie,DistilRoBERTa,0.850,0.890,0.790,0.850,manuscript,tax_to_mov_res
+cross_domain,taxi,movie,Proposed Model,0.872,0.913,0.815,0.871,manuscript,tax_to_mov_res
+cross_domain,taxi,restaurant,ALBERT,0.820,0.870,0.760,0.819,manuscript,tax_to_mov_res
+cross_domain,taxi,restaurant,DistilBERT,0.850,0.900,0.800,0.854,manuscript,tax_to_mov_res
+cross_domain,taxi,restaurant,DistilRoBERTa,0.850,0.890,0.790,0.850,manuscript,tax_to_mov_res
+cross_domain,taxi,restaurant,Proposed Model,0.874,0.923,0.838,0.879,manuscript,tax_to_mov_res
+cross_dataset,mdc,dstc1,ALBERT,0.620,0.700,0.490,0.619,manuscript,mdc_dstc_mdc
+cross_dataset,mdc,dstc1,DistilBERT,0.610,0.680,0.470,0.622,manuscript,mdc_dstc_mdc
+cross_dataset,mdc,dstc1,DistilRoBERTa,0.610,0.690,0.480,0.619,manuscript,mdc_dstc_mdc
+cross_dataset,mdc,dstc1,Proposed Model,0.640,0.725,0.531,0.658,manuscript,mdc_dstc_mdc
+cross_dataset,dstc1,mdc,ALBERT,0.340,0.460,0.240,0.399,manuscript,mdc_dstc_mdc
+cross_dataset,dstc1,mdc,DistilBERT,0.330,0.450,0.270,0.425,manuscript,mdc_dstc_mdc
+cross_dataset,dstc1,mdc,DistilRoBERTa,0.480,0.600,0.370,0.503,manuscript,mdc_dstc_mdc
+cross_dataset,dstc1,mdc,Proposed Model,0.510,0.623,0.400,0.538,manuscript,mdc_dstc_mdc

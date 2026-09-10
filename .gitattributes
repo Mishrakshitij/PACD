@@ -1,0 +1,5 @@
+# Preserve dataset bytes so manifest checksums are identical after checkout.
+*.csv -text whitespace=cr-at-eol
+*.png binary
+# Matplotlib writes whitespace inside SVG path attributes.
+*.svg -whitespace

@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pacd"
+version = "0.1.0"
+description = "Politeness classification in goal-oriented conversations"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["torch>=2.2", "numpy>=1.24"]
+
+[project.optional-dependencies]
+baselines = ["transformers>=4.40,<6", "sentencepiece>=0.2"]
+plots = ["matplotlib>=3.7"]
+
+[project.scripts]
+pacd = "pacd.cli:entrypoint"
+
+[tool.setuptools.packages.find]
+where = ["src"]

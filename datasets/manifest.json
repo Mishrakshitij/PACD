@@ -1,0 +1,210 @@
+{
+  "format_version": 1,
+  "status": "complete",
+  "release": "1.0.0",
+  "label_order": [
+    "impolite",
+    "somewhat_impolite",
+    "somewhat_polite",
+    "polite"
+  ],
+  "description": "New four-class annotations with dialogue-disjoint partitions; distinct from the manuscript gold data.",
+  "split_method": "SHA-256 of pacd-split-42:<domain>:<dialogue_id>; fractions 0.70 train, 0.195 test, 0.105 validation.",
+  "selection_method": "Within each class, sort SHA-256 of pacd-select-42:<example_id> and take manuscript target count; available only when all class quotas can be met.",
+  "files": [
+    {
+      "domain": "movie",
+      "path": "movie.csv",
+      "rows": 21656,
+      "bytes": 912954,
+      "sha256": "6cfacb4838c8b9d91b3da49c51c4d586deab1c2cd8599174c2420641c15df194",
+      "label_counts": {
+        "0": 3576,
+        "1": 3088,
+        "2": 9299,
+        "3": 5693
+      },
+      "split_counts": {
+        "train": 15367,
+        "test": 4103,
+        "validation": 2186
+      },
+      "dialogues": 2890,
+      "paper_target_counts": {
+        "0": 1136,
+        "1": 533,
+        "2": 2367,
+        "3": 3110
+      },
+      "paper_subset_counts": {
+        "0": 1136,
+        "1": 533,
+        "2": 2367,
+        "3": 3110
+      },
+      "paper_target_matched": true,
+      "paper_target_shortfalls": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0
+      }
+    },
+    {
+      "domain": "restaurant",
+      "path": "restaurant.csv",
+      "rows": 29718,
+      "bytes": 1559800,
+      "sha256": "518dd0be7db2a4676999a711ff72d44ff439bd0190637796f33222af6462d3d5",
+      "label_counts": {
+        "0": 6764,
+        "1": 5323,
+        "2": 11207,
+        "3": 6424
+      },
+      "split_counts": {
+        "train": 20999,
+        "test": 5851,
+        "validation": 2868
+      },
+      "dialogues": 4103,
+      "paper_target_counts": {
+        "0": 1301,
+        "1": 866,
+        "2": 1824,
+        "3": 3141
+      },
+      "paper_subset_counts": {
+        "0": 1301,
+        "1": 866,
+        "2": 1824,
+        "3": 3141
+      },
+      "paper_target_matched": true,
+      "paper_target_shortfalls": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0
+      }
+    },
+    {
+      "domain": "taxi",
+      "path": "taxi.csv",
+      "rows": 23311,
+      "bytes": 937444,
+      "sha256": "1d41efcacca8b4c773a0067a6828a2631866255e37aceeb6770458704d3097a4",
+      "label_counts": {
+        "0": 6134,
+        "1": 3430,
+        "2": 8725,
+        "3": 5022
+      },
+      "split_counts": {
+        "train": 16511,
+        "test": 4446,
+        "validation": 2354
+      },
+      "dialogues": 3094,
+      "paper_target_counts": {
+        "0": 1285,
+        "1": 674,
+        "2": 1787,
+        "3": 3480
+      },
+      "paper_subset_counts": {
+        "0": 1285,
+        "1": 674,
+        "2": 1787,
+        "3": 3480
+      },
+      "paper_target_matched": true,
+      "paper_target_shortfalls": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0
+      }
+    },
+    {
+      "domain": "dstc1",
+      "path": "dstc1.csv",
+      "rows": 39218,
+      "bytes": 3567968,
+      "sha256": "feba7fdadc70b4b9f7067432239fc8546b27b2d75f20b6f07c06a00df5dbbfc6",
+      "label_counts": {
+        "0": 13622,
+        "1": 4650,
+        "2": 14735,
+        "3": 6211
+      },
+      "split_counts": {
+        "train": 26987,
+        "validation": 4574,
+        "test": 7657
+      },
+      "dialogues": 1708,
+      "paper_target_counts": {
+        "0": 2570,
+        "1": 708,
+        "2": 4374,
+        "3": 2491
+      },
+      "paper_subset_counts": {
+        "0": 2570,
+        "1": 708,
+        "2": 4374,
+        "3": 2491
+      },
+      "paper_target_matched": true,
+      "paper_target_shortfalls": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0
+      }
+    }
+  ],
+  "sources": [
+    {
+      "path": "mdc/data/movie_all.tsv",
+      "domains": [
+        "movie"
+      ],
+      "sha256": "d2291fd898d8c2d92d7c92affa5601a0561a28f07f6147e9c196c5a573a222d6",
+      "url": "https://github.com/xiul-msr/e2e_dialog_challenge/blob/05de23b4488350cb963dfc5592f27821e5171470/data/movie_all.tsv"
+    },
+    {
+      "path": "mdc/data/restaurant_all.tsv",
+      "domains": [
+        "restaurant"
+      ],
+      "sha256": "0e297b2ac2e29f9771fed3cd348873b729eb079cc26f8c2333a28247671bdb28",
+      "url": "https://github.com/xiul-msr/e2e_dialog_challenge/blob/05de23b4488350cb963dfc5592f27821e5171470/data/restaurant_all.tsv"
+    },
+    {
+      "path": "mdc/data/taxi_all.tsv",
+      "domains": [
+        "taxi"
+      ],
+      "sha256": "6d8ee9719b3d294b558eb53516c897108d1276e9dbcac0101d4e19a2ad801d20",
+      "url": "https://github.com/xiul-msr/e2e_dialog_challenge/blob/05de23b4488350cb963dfc5592f27821e5171470/data/taxi_all.tsv"
+    },
+    {
+      "path": "dstc1/train3.tgz",
+      "domains": [
+        "dstc1"
+      ],
+      "sha256": "9321a23c7208370e620be4460fcdbb653f74d0a63ae2e9bfa2afc480b503631c",
+      "url": "https://download.microsoft.com/download/B/4/5/B4502E67-FBE2-417E-9530-E9A9A990E3F3/dstc_data_train3_v00.tgz"
+    },
+    {
+      "path": "dstc1/test3.tgz",
+      "domains": [
+        "dstc1"
+      ],
+      "sha256": "a16a18fab3ee29c0fcbde8e24d4d90f995fca03fbf04b637f2d0437a3c904bbb",
+      "url": "https://download.microsoft.com/download/F/0/A/F0AF24D9-34BC-4E17-9B0E-19E985F73DB7/dstc_data_test3.tgz"
+    }
+  ]
+}

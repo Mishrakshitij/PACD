@@ -1,0 +1,5 @@
+domain,phase1,phase2,train,test,validation,source,source_table
+movie,21656,7146,5002,1394,750,manuscript,Table:1
+restaurant,29720,7133,4993,1391,749,manuscript,Table:1
+taxi,23311,7226,5058,1409,759,manuscript,Table:1
+dstc1,23311,10144,7101,2028,1015,manuscript,Table:1

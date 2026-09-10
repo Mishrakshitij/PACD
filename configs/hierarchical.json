@@ -1,0 +1,20 @@
+{
+  "model": "hierarchical",
+  "epochs": 2,
+  "batch_size": 8,
+  "lr": 0.00004,
+  "weight_decay": 0.01,
+  "class_weighting": true,
+  "seed": 42,
+  "model_config": {
+    "embedding_dim": 300,
+    "hidden_size": 768,
+    "heads": 12,
+    "utterance_layers": 12,
+    "context_layers": 2,
+    "feedforward_size": 3072,
+    "dropout": 0.1,
+    "max_tokens": 128,
+    "max_turns": 32
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "model": "distilbert",
+  "epochs": 2,
+  "batch_size": 8,
+  "lr": 0.00004,
+  "weight_decay": 0.01,
+  "class_weighting": true,
+  "seed": 42,
+  "model_config": {
+    "max_tokens": 128
+  }
+}
